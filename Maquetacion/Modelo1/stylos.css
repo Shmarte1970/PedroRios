@@ -1,0 +1,58 @@
+
+
+body{
+    background: white;
+}
+
+.header{
+    height: 70px;
+    background: #a4a4a4;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+.nav{
+    height: 50px;
+    background: #424242;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+.contenido{
+    height: 550px;    
+    border-radius: 1em;
+    margin: 1em;
+}
+
+.footer{
+    height: 70px;
+    background: #424242;
+    border-radius: 1em;
+    margin: 1em;
+}
+.section{
+    height: 100%;
+    width: 68%;
+    background: #a4a4a4;
+    border-radius: 1em;
+    float: left;
+    
+}
+
+.aside{
+    height: 100%;
+    width: 30%;
+    background: #a4a4a4;
+    border-radius: 1em;
+    float: right;
+}
+
+.article{
+    width: 96%;
+    height: 20%;
+    background: #424242;
+    margin: 1em;
+    border-radius: 1em;
+
+}
+

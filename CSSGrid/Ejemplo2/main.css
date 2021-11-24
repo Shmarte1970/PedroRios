@@ -1,0 +1,35 @@
+.grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 1px;
+    justify-items: auto;
+}
+
+.grid div{
+    background:grey;
+    padding: 1em;
+}
+
+.gird4_full{
+    grid-column: 1/4;
+
+}
+.grid div:hover{
+    border:1px solid #f1c40f;
+}
+
+
+
+@media (max-width:300px){
+
+    body{background: red;}
+    .grid{
+        display: block;
+        grid-template-columns: auto;
+    }
+    .gird4_full{
+        display: grid;
+        grid-template-columns: 50%;
+    }
+
+}
