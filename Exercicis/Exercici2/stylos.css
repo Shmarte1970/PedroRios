@@ -82,6 +82,25 @@
 
 
 
+@media (max-width:800px){
+
+    .grid3{
+        grid-template-columns: auto;
+        border: 10px solid #FEE228;
+    }
+
+    .grid3_box2{
+        padding: 20px 10px 0px;
+        height: 80px;
+    }
+
+    .grid3_box1,
+    .grid3_box2{
+        border: 10px solid #FEE228;
+    }
+
+}
+
 
 
 
