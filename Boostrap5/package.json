@@ -1,0 +1,11 @@
+{
+  
+  "scripts": {
+    "build": "purgecss --css css/main.css --content index.html -o css/low.css"
+  },
+
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+
+}
