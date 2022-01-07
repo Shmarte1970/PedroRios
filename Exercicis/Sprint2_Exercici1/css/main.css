@@ -1,0 +1,67 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    background: white;
+}
+
+#menu li >  {
+    font-size: 18px;
+    font-weight: blod;
+}
+
+
+#menu form > button {
+    font-size: 18px;
+    font-weight: blod;
+}
+
+
+.dropdown-item:hover{
+    background: tomato !important; 
+    color: white !important;
+}
+
+
+
+@media(max-width:991px){
+    li{
+        margin-top: 8px !important;
+        text-align: center !important;
+     
+    }
+
+    #alinear{
+        align-items: flex-start !important;
+    }
+}
+
+
+@media(max-width:360px){
+  
+
+
+    li {
+        margin-top: 8px !important;
+        text-align: center !important;
+
+    }
+
+    
+}
+
+@media(max-width:576px){
+
+    .icon-wrap{
+        flex-wrap: wrap;
+        justify-content: left !important;
+    }
+
+}
+
+@media(max-width:1200px){
+    .serv-fila {
+        width: 100% !important;
+        justify-content: center !important;
+        text-align: left;
+    }
+}

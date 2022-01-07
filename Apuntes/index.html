@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="#">
+    <!-- Bootstrap CSS 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <title>Apuntes</title>
+  </head>
+  <body>
+
+    <!--
+      ----------------------- Cabecera --------------------------------
+    -->
+    
+
+      <header class="container-fluid bg-primary d-flex justify-content-center">
+          <p class="text-light mb-0 p-2 fs-6">Contacta con migo en el +34 666-69-69-69</p>
+      </header>
+    
+    <!--
+      ----------------------- NavBar --------------------------------
+    -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="menu">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+         <span class="text-primary fs-5 fw-blod">Apuntes</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Equipo</a>
+            </li>  
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>  
+            
+          </ul>    
+          <form class="d-flex">
+            <input class="form-control me-2" type="email" placeholder="email" aria-label="email">
+            <button class="btn btn-primary  btn-primary-btn-outline-success" type="button">Suscribete</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!--
+      ----------------------- Slider --------------------------------
+    -->
+
+
+      <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+  <div class="carousel-inner item imgnormalizada active">
+
+    <div class="carousel-item active" >
+      <img src="./img/Slider1.webp" class="d-block w-100" alt="Slider1">
+    </div>
+
+    <div class="carousel-item" >
+      <img src="./img/Slider2.webp" class="d-block w-100" alt="Slider2">
+    </div>
+
+    <div class="carousel-item" data-bs-inverval = "3000">
+      <img src="./img/Slider3.webp" class="d-block w-100" alt="Slider3">
+    </div>
+
+    <div class="carousel-item" data-bs-inverval = "3000">
+      <img src="./img/Slider4.webp" class="d-block w-100" alt="Slider4">
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+ <!--
+      ----------------------- Intro --------------------------------
+    -->
+
+    <section class="w-50 mx-auto text-center pt-5" id="intro">
+      <h1 class="p-3 fs-2 border-top border-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br><span class="text-primary">My Proyecto.</span></h1>
+      <p><span class="text-primary">Proyecto.</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quam ex pariatur aperiam corrupti porro.</p>
+    </section>
+
+
+     <!--
+      ----------------------- Servicios --------------------------------
+    -->
+
+    <section class="container-fluid">
+      <div class="row w-75 mx-auto serv-fila">
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icon-wrap">
+          <img src="./img/computer1.jpg" alt="computer1" width="180" height="160">
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Card1</h3>
+            <p class="px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icon-wrap"> 
+          <img src="./img/computer2.png" alt="computer2" width="180" height="160">
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Card2</h3>
+            <p class="px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>      
+      <div class="row w-75 mx-auto serv-fila">
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icon-wrap">
+          <img src="./img/computer3.jpg" alt="computer3" width="180" height="160">
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Card3</h3>
+            <p class="px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icon-wrap"> 
+          <img src="./img/computer4.jpg" alt="computer4" width="180" height="160">
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Card4</h3>
+            <p class="px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>      
+    </section>
+    
+     <!--
+      ----------------------- Acerca de --------------------------------
+    -->
+
+    <section>
+      <div class="w-75 m-auto text-center" id="equipo">
+        <h1 class="mb-5 fs-2 text-center">Grandes Ideas<span class="text-primary"><br> Grandes Resultados</span></h1>
+        <p class="fs-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure corporis est ullam dignissimos quisquam sequi.</p>
+      </div>
+      <!--Desarrollado otro estilo-->
+      <!--<div class="mt-2 d-flex justify-content-center">
+        <img src="./img/Servicios1.jpg" alt="Servicios1" width="500px" height="280px">        
+      </div>-->
+      <div class="mt-2 d-flex justify-content-center">
+        <!--Usando img-fluid de bootstrap-->      
+        <img class="img-fluid" src="./img/Servicios1.png" alt="Servicios1" width="500px" height="280px">  
+      </div>
+      <div id="local" class="border-top border-4">
+        <div class="mapa"></div>
+          <div>
+            <div class="wrapper">
+              <h2>Estamos en Barcelona, Catalonya</h2>
+              <h2 class="text-primary mb-4" id="type"></h2>
+              <p class="fs-5 text-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique et culpa eveniet doloribus officiis dolor dolore sint eligendi, sapiente illo.</p>
+              <section class="d-flex" id="num-local">
+                <div>
+                  <p class="text-primary fs-5">225</p>
+                  <p>Dias de Sol</p>
+                </div>
+                <div>
+                  <p class="text-primary fs-5">100%</p>
+                  <p>Aprobado</p>
+                </div>
+                <div>
+                  <p class="text-primary fs-5">24º Celsius</p>
+                  <p>Temperatura</p>
+                </div>
+              </section>
+            </div>
+          </div>        
+      </div>
+    </section>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!--Script typewriter desde web
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script> -->
+
+    <script src="core.js"></script>
+    <script src="type.js"></script>
+ 
+    <!--My main.js-->
+    <script src="main.js"></script>
+
+   
+    
+
+
+  </body>
+</html>
