@@ -81,11 +81,11 @@
     Nav Tab
 -->
 
-<div class="container mt-5">
+<div class="container mt-5 flex-column">
 
-    <div id="content">
+    <div id="exTab1" class="content">
        
-          <ul class="nav nav-tabs justify-content-center bg-light" id="myTab" role="tablist">
+          <ul class="nav nav-tabs justify-content-center bg-light " id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
               <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="home" aria-selected="true">Simple Bookmarking</button>
             </li>
@@ -99,7 +99,7 @@
           <div class="tab-content" id="myTabContent">
             <div class="container-fluid mt-5 px-4 justify-content-center tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="home-tab">
                 <div class="col-md-8 d-flex">
-                    <img src="/img/illustration-features-tab-1.png" alt="illustration-features-tab-1.png">
+                    <img class ="img_tab_1" src="/img/illustration-features-tab-1.png "  alt="illustration-features-tab-1.png" >
                     <div class="container-fluid justify-content-sm-center col-md-10">
                         <h3 class="fs-5 mt-4 px-4 pb-1">Bookmark in one click</h3>
                         <p class="px4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat rerum, totam doloremque vero eveniet earum.</p>
@@ -107,28 +107,32 @@
                     </div>  
                 </div>
             </div>
-            <div class="container-fluid mt-5 px-4 justify-content-center tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="container-fluid mt-5 px-4 justify-content-center tab-pane fade " id="tab2" role="tabpanel" aria-labelledby="profile-tab" >
                 <div>
                     <h3 class="fs-5 mt-4 px-4 pb-1">Speed Searchind</h3>
                 </div>
                 <div class="col-md-12 d-flex">                
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni possimus ipsam modi cum fugit laborum alias hic ducimus inventore nesciunt?</p>
-                    <div>
-                        <form class="container-fluid d-flex">
-                            <input class="form-control me-2" type="email" placeholder="email" aria-label="email">
-                            <button class="btn btn-primary  btn-primary-btn-outline-success" type="button">Suscribete</button>
+                 </div>
+                 <div>
+                    <div class="container-fluid d-flex justify-content-center">
+                        <form >
+                            <input class="form-control mt-2" type="email" style="width: auto;" placeholder="email" aria-label="email">                                               
                           </form>
+                          <div>
+                            <button class="btn btn-primary  btn-primary-btn-outline-success mt-2" type="button">Suscribete</button>
+                          </div>
                     </div>
                     
                 </div>            
-                <img src="/img/illustration-features-tab-2.png" alt="illustration-features-tab-2.png">
+                <img class="img_tab_1 mt-4" src="/img/illustration-features-tab-2.png" alt="illustration-features-tab-2.png">
             </div>
             <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="contact-tab">
                 <div>
                     <h3 class="container-fluid d-flex justify-content-center mt-4">Easy Sharing</h3>
                 </div>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet, ratione ut. At adipisci tempore sint? Consectetur ratione unde, laboriosam voluptatibus hic quo blanditiis, officia, est velit maiores facere natus cupiditate!</p>
-                <img src="/img/illustration-features-tab-3.png" alt="illustration-features-tab-3.png">
+                <img class="img_tab_1" src="/img/illustration-features-tab-3.png" alt="illustration-features-tab-3.png">
             </div>
           </div>
           
@@ -144,9 +148,13 @@
 <!--
     Mi Js
 -->
+<!--
     <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
-    <script src="/js/main.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>-->
+  
+    <script src="/js/bootstrap.js" crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.min.js" ></script>
+    <script src="/js/HowLongPx.js"></script>
     <script src="/js/core.js"></script>
     <script src="/js/type.js"></script>
 </body>

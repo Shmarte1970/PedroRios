@@ -10,16 +10,28 @@ body {
 }
 
 
-
 #menu form > button {
     font-size: 18px;
     font-weight: blod;
 }
 
+
 .dropdown-item:hover{
     background: tomato !important; 
     color: white !important;
 }
+
+#exTab1 .tab-content {
+    color : rgb(12, 12, 12);
+    padding : 5px 15px;
+  }
+
+  #exTab1 .nav-tabs > li > button {
+    border-radius: 0;
+  }
+ 
+
+
 
 @media(max-width:991px){
     li{
@@ -27,12 +39,16 @@ body {
         text-align: center !important;
      
     }
+
+    #alinear{
+        align-items: flex-start !important;
+    }
 }
 
 
 @media(max-width:360px){
   
-
+  
 
     li {
         margin-top: 8px !important;
@@ -40,10 +56,6 @@ body {
 
     }
 
-    #movil {
-        width: 100%;
-        height: 100%;
-    }
     
 }
 
@@ -54,12 +66,24 @@ body {
         justify-content: left !important;
     }
 
+ 
+
 }
 
 @media(max-width:1200px){
     .serv-fila {
         width: 100% !important;
         justify-content: center !important;
-        text-align: center;
+        text-align: left;
     }
+
+    .img_tab_1 {
+        
+        flex-shrink:inherit !important;
+      
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    
 }
