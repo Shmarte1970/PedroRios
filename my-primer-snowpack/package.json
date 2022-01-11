@@ -1,0 +1,23 @@
+{
+  "name": "my-primer-snowpack",
+  "version": "1.0.0",
+  "description": "my primers snowpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shmarte1970/my_primer_snowpack.git"
+  },
+  "author": "Pedro Rios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shmarte1970/my_primer_snowpack/issues"
+  },
+  "homepage": "https://github.com/Shmarte1970/my_primer_snowpack#readme",
+  "devDependencies": {
+    "snowpack": "^3.8.8"
+  }
+}
